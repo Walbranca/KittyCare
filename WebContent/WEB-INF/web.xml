@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TesteServlet</display-name>
+    <servlet-name>TesteServlet</servlet-name>
+    <servlet-class>servlets.TesteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TesteServlet</servlet-name>
+    <url-pattern>/TesteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>formulario2</display-name>
+    <servlet-name>formulario2</servlet-name>
+    <servlet-class>servlets.formulario2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>formulario2</servlet-name>
+    <url-pattern>/formulario2</url-pattern>
+  </servlet-mapping>
 </web-app>
